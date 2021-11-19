@@ -21,4 +21,6 @@ m = ''
 
 # prints
 print('O valor de A:', a)
-print('O valor de A {}'.format(a)) # tudo que estiver dentro de .format será substituido nas chaves
+print('O valor de A = {} e valor de E = {}'.format(a,e)) # tudo que estiver dentro de .format será substituido nas chaves
+
+print('Tipo primitivo de g {}'.format(type(e))); # saber tipo primitivo da variavel
