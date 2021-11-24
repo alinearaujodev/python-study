@@ -1,4 +1,4 @@
-# leia o dia, mês e ano de aniversário e msotre com data formatada
+# leia o dia, mês e ano de aniversário e mostre com data formatada
 
 day = input('Day: ')
 month = input('Month: ')
