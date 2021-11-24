@@ -1,26 +1,19 @@
-# int
+# int and float 
 a = 1
 b = -4
-c = 0
-d = 8942
-
-# float
-e = 4.5
-f = 0.543
-g = -12.543
-h = 8942.0
+c = 0.9
+d = -8942.0
 
 # bool
-i = True
-j = False
+e = True
+f = False
 
 # str
-k = 'Olá mundo!'
-l = '7.4'
-m = ''
+g = 'Olá mundo!'
+h = '7.4'
+i = ''
 
 # prints
-print('O valor de A:', a)
-print('O valor de A = {} e valor de E = {}'.format(a,e)) # tudo que estiver dentro de .format será substituido nas chaves
-
-print('Tipo primitivo de g {}'.format(type(e))); # saber tipo primitivo da variavel
+print('O valor de A:\n', a)
+print('O valor de D = {} e valor de G = {}'.format(d,g)) # tudo que estiver dentro de .format será substituido nas chaves
+print('Tipo primitivo de E {}'.format(type(e))); # saber tipo primitivo da variavel
