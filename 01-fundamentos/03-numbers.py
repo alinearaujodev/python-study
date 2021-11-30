@@ -1,7 +1,6 @@
 import math # aqui tudo de math
 # from math import sqrt   #importa somente a sqrt
 import random # importando biblioteca random para numero aleatório
-import emoji
 
 print(1 + 1) # soma
 print(5 - 2) # subtração
@@ -26,6 +25,3 @@ print(round(23.67)) # arrendonda para mais ou para menos
 print(math.floor(3.8)) # arrendonda para menos 
 print(math.ceil(3.8)) # arrendonda para mais
 print(math.sqrt(random.randint(1,10))) # raiz quadrada 
-
-# EMOJI 
-print(emoji.emojize('Python is :thumbs_up:'))
