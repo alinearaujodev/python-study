@@ -8,7 +8,8 @@ print(frase[15:]) # pega do numero indicado até o final da string
 print(frase[9::3]) # pega do numero indicado ate o final pulando de 3 em 3
 
 # ANALISE
-print(len(frase)) # retorna o numero de caracter total da string
+print(len(frase)) # retorna a quantidade de caracter total
+print(frase.index('i')) # retorna a posição do caracter 
 print(frase.count('i')) # quantas vezes aparece o carater na string
 print(frase.find('niz')) # indica em qual posição encontrou o primeiro caracter 
 print(frase.find('Heloísa')) # caso não exista retorna -1
@@ -18,6 +19,7 @@ print('Aline' in frase) # retorna um bool
 print(frase.replace('Diniz', 'Alves')) # troca de carater
 print(frase.upper()) # caracter maiusculo
 print(frase.lower()) # caracter minusculo    
+print(frase.swapcase()) # caracter em minusculo para maiusculo e virse versa
 print(frase.capitalize()) # primeiro caracter em maiusculo 
 print(frase.title()) # primeiro caracter em maiusculo de cada palavra
 print(frase.strip()) # remove os espaços inuteis
