@@ -1,3 +1,7 @@
+# listas são estruturas de dados
+# caso adicione um valor, poder ser alterado depois
+
+
 familia = ["aline", "heloísa", "joyce", "fábio", "adriana"]
 aniversario = [15, 1, 26, 22, 10]
 
