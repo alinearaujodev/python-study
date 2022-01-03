@@ -1,4 +1,4 @@
-def hello (name: str, age: int):
+def hello (name: str, age: int) -> int:
     print ("Hello {}, você tem {}".format(name,age))
     return age*2
 
