@@ -8,12 +8,15 @@ d = -8942.0
 e = True
 f = False
 
-# str
+# string
 g = 'Olá mundo!'
 h = '7.4'
 i = ''
 
-# prints
-print('O valor de A:\n', a)
+# CASO NÃO DEFINA O VALOR DA VARIAVEL, GERA UM ERRO 
+
+# prints com variaveis 
+print('O valor de A:', a)
 print('O valor de D = {} e valor de G = {}'.format(d,g)) # tudo que estiver dentro de .format será substituido nas chaves
 print('Tipo primitivo de E {}'.format(type(e))); # saber tipo primitivo da variavel
+print (f' ')

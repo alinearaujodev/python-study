@@ -5,17 +5,24 @@ import random # importando biblioteca random para numero aleatório
 print(1 + 1) # soma
 print(5 - 2) # subtração
 print(7 * 4) # multiplicação
-print(9 / 6) # divisão 
+print(10 / 5) # divisão sempre retorna um float
+print(10 // 5) # divisão que retorna um inteiro
 print(10 % 3) # resto da divisão
+print(5 ** 3) # potência
 
-"""
-Vai funcionar somente com a concatenação com o + 
-porque o number ficou como uma string
-Agora de tirar a função str, vai dar typeerror 
+#   ERROS DE TIPOS
+fav_number = input("Enter your favorite number: ")
+print(fav_number + ' is my favorite number') # aqui toda a frase será uma string e a concatenação funcionar por causa do '+'
 
-"""
-my_num = 15
-print(str(my_num) + ' my favorite number') 
+age = input("Enter your age: ")
+print("Your birth year: ", 2022 - age) # aqui haverá um erro por causa de dois tipos diferente: int e str, então tem que fazer conversão de tipo: 
+
+# int() 
+# float()
+# str()
+# bool()
+
+
 
 #  FUNÇÕES NICE
 print(pow(9,2)) # potência
