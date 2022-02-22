@@ -15,14 +15,18 @@ fav_number = input("Enter your favorite number: ")
 print(fav_number + ' is my favorite number') # aqui toda a frase será uma string e a concatenação funcionar por causa do '+'
 
 age = input("Enter your age: ")
-print("Your birth year: ", 2022 - age) # aqui haverá um erro por causa de dois tipos diferente: int e str, então tem que fazer conversão de tipo: 
+print("Your birth year: ", 2022 - int(age)) # aqui haverá um erro por causa de dois tipos diferente: int e str, então tem que fazer conversão de tipo: 
 
 # int() 
 # float()
 # str()
 # bool()
 
-
+# ATRIBUIÇÃO múltipla 
+a, b = 1, 3
+print(a, b)
+a, b = b, a+b
+print(a, b)
 
 #  FUNÇÕES NICE
 print(pow(9,2)) # potência
