@@ -1,7 +1,7 @@
-# escreva na tela com função print
+# FUNÇÃO PARA escreva na tela
 print('hello world') 
 
-# variavéis e lendo dados do usuário com função input
+# DECLARAÇÃO DE VARIAVÉIS E LENDO UMA VARIÁVEL
 nome = input('Qual seu nome: ')
 idade = input('Qual sua idade: ')
 peso = input('Qual seu peso: ')
