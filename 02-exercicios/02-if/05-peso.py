@@ -5,8 +5,8 @@ option = input('(k)g ou (L)bs: ')
 
 if option == 'l' or 'L':
     count = weight * 0.45
-    print(f'Weight in Lbs: {count}')
+    print(f'Weight in Lbs: {count:.2f}')
 elif option == 'k' or 'K':
     count = weight / 0.45
-    print(f'Weight in Kg: {count}')
+    print(f'Weight in Kg: {count:.2f}')
 
