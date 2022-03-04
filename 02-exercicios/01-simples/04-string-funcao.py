@@ -1,10 +1,12 @@
 """
-LEIA QUALQUER COISA E MOSTRE O MAXIMO DE FUNÇÃO PARA UMA STRING
+Funções para uma string
+
+Leia uma string e retorne o maximo de função
 """
 x = input('Digite algo: ')
 
 # funcao .is
-print('Tipo primitivo: {}'.format(type(x)))
+print(f'Tipo primitivo: {type(x)}')
 print('É numero:', x.isnumeric())
 print('É alfabético:', x.isalpha())
 print('É alfanúmero:', x.isalnum())

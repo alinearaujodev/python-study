@@ -1,7 +1,12 @@
 from math import *
-# sucessor e antecessor de um numero 
-num = int(input('Enter a number: '))
-print('Antecessor de {} = {}\n Sucessor de {} = {}'.format(num, (num-1), num, (num+1)))
 
-# Doblo, triplo e raiz quadrada
-print('Doblo de {} = {}\n Tiplo de {} = {}\n Raiz Quadrada de {} = {:.2f}'.format(num,(num*2),num,(num*3),num, sqrt(num)))
+"""
+Dado um numero, calcular seu sucessor, antecessor, doblo, tiplo e sua raiz quadrada
+"""
+
+num = int(input('Enter a number: '))
+print(f'Antecessor: {num-1}')
+print(f'Sucessor: {num+1}')
+print(f'Doblo: {num*2}')
+print(f'Tiplo: {num*3}')
+print(f'Raiz Quadrada: {sqrt(num):.2f}') 

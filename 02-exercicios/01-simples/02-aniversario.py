@@ -1,7 +1,10 @@
-# leia o dia, mês e ano de aniversário e mostre com data formatada
+"""
+Data do seu aniversário
 
-day = input('Day: ')
-month = input('Month: ')
-year = input('Year: ')
+leia o dia, mês e ano de aniversário, conserte para int e return com data formatada
+"""
+day = int(input('Day: '))
+month = int(input('Month: '))
+year = int(input('Year: '))
 
-print(day, '-', month, '-', year)
+print(day, '/', month, '/', year)
